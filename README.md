@@ -20,15 +20,6 @@ Aplikasi mobile berbasis React Native (Expo) yang mengimplementasikan sistem aut
 - **Session Persistence**: Menjaga sesi login tetap aktif meskipun aplikasi ditutup dan dibuka kembali.
 - **Auto-Logout Idle**: Fitur keamanan yang otomatis mengeluarkan pengguna jika aplikasi tidak aktif/berada di latar belakang selama 5 menit.
 
-## Langkah Pengujian
-
-1. **Setup & Start**: Jalankan `npx expo start` dan scan QR code menggunakan aplikasi Expo Go di perangkat fisik (Fitur biometrik tidak didukung di emulator).
-2. **Registrasi**: Daftarkan akun baru dan periksa email masuk untuk klik link verifikasi.
-3. **Login & Persistence**: Masuk ke aplikasi, tutup aplikasi sepenuhnya, lalu buka kembali untuk memastikan sesi tetap tersimpan.
-4. **Logout**: Pastikan proses logout mengarahkan kembali ke halaman login dengan benar.
-5. **Forgot Password**: Uji fitur reset password dan verifikasi email pemulihan yang masuk.
-6. **Biometric**: Tekan tombol biometrik untuk memicu prompt Face ID atau Fingerprint.
-
 ## Screenshot
 
 ### Login Screen
