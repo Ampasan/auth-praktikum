@@ -2,6 +2,7 @@
   "expo": {
     "name": "auth-praktikum",
     "slug": "auth-praktikum",
+    "scheme": "auth-praktikum",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,7 +14,10 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Aplikasi ini memerlukan akses Face ID untuk login yang lebih cepat dan aman."
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -24,6 +28,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-local-authentication"
+    ]
   }
 }
