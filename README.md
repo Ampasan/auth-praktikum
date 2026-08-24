@@ -1,11 +1,5 @@
 # Auth
 
-## Informasi Mahasiswa
-
-- Nama : Naufal Rakan Ramadhan
-- NIM : 2410501042
-- Kelas : B
-
 ## Deskripsi Aplikasi
 
 Aplikasi mobile berbasis React Native (Expo) yang mengimplementasikan sistem autentikasi lengkap menggunakan Firebase.
